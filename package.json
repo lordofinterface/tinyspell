@@ -1,0 +1,19 @@
+{
+  "name": "tinyspell",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev:web": "vite",
+    "dev:wasm": "cd game && w4 watch",
+    "build:web": "tsc && vite build",
+    "build:wasm": "cd game && npm run build"
+  },
+  "devDependencies": {
+    "typescript": "^5.0.2",
+    "vite": "^4.3.2"
+  },
+  "dependencies": {
+    "nanostores": "^0.8.1"
+  }
+}

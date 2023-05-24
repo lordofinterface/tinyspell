@@ -1,0 +1,11 @@
+{
+  "name": "game",
+  "version": "1.0.0",
+  "scripts": {
+    "build": "asc --target release",
+    "build:debug": "asc --target release"
+  },
+  "devDependencies": {
+    "assemblyscript": "^0.21.3"
+  }
+}
