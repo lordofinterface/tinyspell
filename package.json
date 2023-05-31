@@ -5,9 +5,10 @@
   "type": "module",
   "scripts": {
     "dev:web": "vite",
-    "dev:wasm": "cd game && w4 watch",
+    "dev:wasm": "cd cart && w4 watch",
+
     "build:web": "tsc && vite build",
-    "build:wasm": "cd game && npm run build"
+    "build:wasm": "cd cart && make && mv ./build/cart.wasm ../public/carts/cart.wasm"
   },
   "devDependencies": {
     "typescript": "^5.0.2",

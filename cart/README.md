@@ -1,19 +1,13 @@
-# game
+# cart
 
-A game written in AssemblyScript for the [WASM-4](https://wasm4.org) fantasy console.
+A game written in C for the [WASM-4](https://wasm4.org) fantasy console.
 
 ## Building
-
-First setup the project by running:
-
-```shell
-npm install
-```
 
 Build the cart by running:
 
 ```shell
-npm run build
+make
 ```
 
 Then run it with:
@@ -22,7 +16,7 @@ Then run it with:
 w4 run build/cart.wasm
 ```
 
-For more info about setting up WASM-4, see the [quickstart guide](https://wasm4.org/docs/getting-started/setup?code-lang=assemblyscript#quickstart).
+For more info about setting up WASM-4, see the [quickstart guide](https://wasm4.org/docs/getting-started/setup?code-lang=c#quickstart).
 
 ## Links
 
